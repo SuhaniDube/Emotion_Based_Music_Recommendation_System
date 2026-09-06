@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moodsongs — Feel the Music</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <!-- face-api.js — runs entirely in the browser, no server needed -->
+  <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#" onclick="showSection('home');return false;">
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
+        <circle cx="13" cy="13" r="12" stroke="url(#lg)" stroke-width="1.5"/>
+        <circle cx="13" cy="13" r="4.5" fill="url(#lg)"/>
+        <path d="M13 1Q19 7 13 13Q7 19 13 25" stroke="url(#lg)" stroke-width="1" fill="none" opacity=".45"/>
+        <defs>
+          <linearGradient id="lg" x1="0" y1="0" x2="26" y2="26" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#f97316"/>
+            <stop offset="100%" stop-color="#ec4899"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <span>Moodsongs</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <button class="nav-link active" id="nl-home"   onclick="showSection('home')">Home</button>
+      <button class="nav-link"        id="nl-manual" onclick="showSection('manual')">Browse Moods</button>
+      <button class="nav-link"        id="nl-camera" onclick="showSection('camera')">
+        <span class="live-dot" id="liveDot"></span>Face Scan
+      </button>
+    </div>
+    <button class="nav-stats-btn" onclick="openStats()">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="18" y="3" width="4" height="18"/><rect x="10" y="8" width="4" height="13"/><rect x="2" y="13" width="4" height="8"/>
+      </svg>Stats
+    </button>
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ═══ HOME ═══ -->
+<section id="sec-home" class="section active">
+  <div class="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="eyebrow">Hindi · Tamil · Telugu · Punjabi · Bengali · more</p>
+      <h1 class="hero-title">Music that knows<br/><em>how you feel</em></h1>
+      <p class="hero-body">Pick a mood or let your camera detect your emotion in real time. We'll find the perfect songs from 400+ tracks — instantly.</p>
+      <div class="hero-cta">
+        <button class="cta-primary" onclick="showSection('manual')">
+          Browse by mood
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+        <button class="cta-outline" onclick="showSection('camera')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          Scan my face
+        </button>
+      </div>
+    </div>
+    <div class="hero-vinyl">
+      <div class="vinyl"><div class="vinyl-label"><div class="vinyl-hole"></div><span>Feel it</span></div></div>
+      <div class="float-chip fc1">😄 Happy</div>
+      <div class="float-chip fc2">🥰 Romantic</div>
+      <div class="float-chip fc3">😌 Calm</div>
+      <div class="float-chip fc4">⚡ Energy</div>
+    </div>
+  </div>
+
+  <div class="home-section">
+    <p class="section-eyebrow">7 Emotions · Pick Yours</p>
+    <div class="home-emotion-grid" id="homeEmotionGrid"></div>
+  </div>
+
+  <div class="home-section">
+    <p class="section-eyebrow">How it works</p>
+    <div class="how-grid">
+      <div class="how-card">
+        <div class="how-num">01</div><div class="how-ico">🎭</div>
+        <h3>Pick or detect</h3>
+        <p>Choose your mood from 7 emotion cards, or activate the camera. face-api.js runs a real-time neural network directly in your browser — no server, no upload, no lag.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">02</div><div class="how-ico">🧠</div>
+        <h3>AI recommends</h3>
+        <p>Our model ranks 400+ curated songs across Hindi, Tamil, Telugu, Punjabi, Bengali and more by your exact emotion.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">03</div><div class="how-ico">▶️</div>
+        <h3>Listen instantly</h3>
+        <p>Every song shows a 30-second iTunes preview. Hit play right here, or open the full track on iTunes — free, no account needed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ MANUAL ═══ -->
+<section id="sec-manual" class="section">
+  <div class="inner">
+    <div class="page-head">
+      <button class="back-btn" onclick="showSection('home')">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>Back
+      </button>
+      <div><h2 class="page-title">Browse by mood</h2><p class="page-sub">Select an emotion · choose how many songs · hit play</p></div>
+    </div>
+    <div class="mood-grid" id="moodGrid"></div>
+    <div class="controls-bar" id="controlsBar" style="display:none">
+      <div class="selected-tag" id="selectedTag"></div>
+      <div class="controls-right">
+        <div class="ctrl-group">
+          <label class="ctrl-label">Language</label>
+          <select id="langFilter" class="ctrl-select">
+            <option value="all">All languages</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Telugu">Telugu</option>
+            <option value="Punjabi">Punjabi</option>
+            <option value="Bengali">Bengali</option>
+          </select>
+        </div>
+        <div class="ctrl-group">
+          <label class="ctrl-label">Songs</label>
+          <select id="topN" class="ctrl-select">
+            <option value="5">5</option>
+            <option value="10" selected>10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+          </select>
+        </div>
+        <button class="btn-get" onclick="getRecommendations()">
+          Get playlist
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="manualResult"></div>
+  </div>
+</section>
+
+<!-- ═══ CAMERA ═══ -->
+<section id="sec-camera" class="section">
+  <div class="inner">
+    <div class="page-head">
+      <button class="back-btn" onclick="showSection('home')">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>Back
+      </button>
+      <div><h2 class="page-title">Face scan</h2><p class="page-sub">Real-time emotion detection powered by face-api.js — runs in your browser</p></div>
+    </div>
+
+    <div class="cam-layout">
+      <div class="cam-left">
+
+        <!-- Model loading indicator -->
+        <div class="model-status" id="modelStatus">
+          <div class="ms-spinner"></div>
+          <span id="msText">Loading face detection models…</span>
+        </div>
+
+        <div class="viewfinder" id="viewfinder">
+          <div class="vf-idle" id="vfIdle">
+            <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" opacity=".3"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            <p>Camera off</p>
+          </div>
+          <video id="webcam" autoplay playsinline muted></video>
+          <!-- Overlay canvas for face-api.js landmarks -->
+          <canvas id="faceCanvas"></canvas>
+        </div>
+
+        <!-- Live emotion meter (updates in real time) -->
+        <div class="live-meter" id="liveMeter" style="display:none">
+          <div class="lm-label">Live emotion</div>
+          <div class="lm-bars" id="lmBars"></div>
+        </div>
+
+        <div class="cam-btns">
+          <button class="cbtn start" id="btnStart" onclick="startCamera()" disabled>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg>Start camera
+          </button>
+          <button class="cbtn scan" id="btnSnap" onclick="lockEmotion()" disabled>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"/></svg>Lock & get songs
+          </button>
+          <button class="cbtn stop" id="btnStop" onclick="stopCamera()" disabled>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" fill="currentColor"/></svg>Stop
+          </button>
+        </div>
+      </div>
+
+      <div class="cam-right">
+        <div class="cam-tip-card">
+          <p class="tip-title">How to get accurate results</p>
+          <ul class="tip-list">
+            <li><strong>Make a clear expression</strong> — big smile, deep frown, raised eyebrows, surprised look</li>
+            <li><strong>Good lighting</strong> — light should be in front of you, not behind</li>
+            <li><strong>Face the camera</strong> directly, keep face centred</li>
+            <li>Watch the <strong>live bars</strong> update in real time as you change expression</li>
+            <li>When the right emotion is at the top, click <strong>Lock & get songs</strong></li>
+          </ul>
+          <div class="tip-privacy">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Runs 100% in your browser — no image ever leaves your device
+          </div>
+        </div>
+        <div id="camResult"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ STATS MODAL ═══ -->
+<div class="modal-bg hidden" id="modalBg" onclick="closeStats()">
+  <div class="modal" onclick="event.stopPropagation()">
+    <div class="modal-head"><h3>Dataset Statistics</h3>
+      <button class="modal-close" onclick="closeStats()">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="modal-body" id="statsBody"></div>
+  </div>
+</div>
+
+<!-- ═══ NOW PLAYING BAR ═══ -->
+<div class="player-bar hidden" id="playerBar">
+  <audio id="audioEl" preload="none"></audio>
+  <div class="player-art" id="playerArt">🎵</div>
+  <div class="player-info">
+    <div class="player-title" id="playerTitle">—</div>
+    <div class="player-artist" id="playerArtist">—</div>
+  </div>
+  <div class="player-controls">
+    <button class="p-btn" onclick="seekBack()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="19 20 9 12 19 4 19 20"/><line x1="5" y1="19" x2="5" y2="5"/></svg>
+    </button>
+    <button class="p-btn play-pause" id="playPauseBtn" onclick="togglePlay()">
+      <svg id="playIcon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      <svg id="pauseIcon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+    </button>
+    <button class="p-btn" onclick="seekForward()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 4 15 12 5 20 5 4"/><line x1="19" y1="5" x2="19" y2="19"/></svg>
+    </button>
+  </div>
+  <div class="player-progress-wrap">
+    <span class="p-time" id="pCurrent">0:00</span>
+    <input type="range" class="p-progress" id="pProgress" min="0" max="30" step="0.1" value="0" oninput="seekTo(this.value)"/>
+    <span class="p-time" id="pDuration">0:30</span>
+  </div>
+  <button class="p-close" onclick="closePlayer()">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

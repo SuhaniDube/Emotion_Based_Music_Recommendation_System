@@ -1,0 +1,186 @@
+id,title,artist,language,genre,emotion,rating,year,search_query
+1,Tum Hi Ho,Arijit Singh,Hindi,Bollywood Romantic,romantic,5.0,2013,Tum Hi Ho Arijit Singh Aashiqui 2
+2,Raabta,Arijit Singh,Hindi,Bollywood Romantic,romantic,4.8,2017,Raabta Arijit Singh Agent Sai Srinivasa
+3,Hawayein,Arijit Singh,Hindi,Bollywood Romantic,romantic,4.8,2017,Hawayein Arijit Singh Jab Harry Met Sejal
+4,Pehla Nasha,Udit Narayan,Hindi,Classic Bollywood,romantic,4.9,1993,Pehla Nasha Jo Jeeta Wohi Sikandar
+5,Gerua,Arijit Singh,Hindi,Bollywood,romantic,4.7,2015,Gerua Arijit Singh Dilwale
+6,Phir Bhi Tumko Chahunga,Arijit Singh,Hindi,Bollywood Romantic,romantic,4.9,2017,Phir Bhi Tumko Chahunga Half Girlfriend
+7,Tera Ban Jaunga,Akhil Sachdeva,Hindi,Bollywood,romantic,4.7,2019,Tera Ban Jaunga Kabir Singh
+8,Dil Diyan Gallan,Atif Aslam,Hindi,Bollywood Romantic,romantic,4.9,2017,Dil Diyan Gallan Tiger Zinda Hai
+9,Janam Janam,Arijit Singh,Hindi,Bollywood Romantic,romantic,4.8,2015,Janam Janam Dilwale
+10,Humsafar,Akhil Sachdeva,Hindi,Bollywood Romantic,romantic,4.8,2017,Humsafar Badrinath Ki Dulhania
+11,Kesariya,Arijit Singh,Hindi,Bollywood Sufi,romantic,4.9,2022,Kesariya Brahmastra Arijit Singh
+12,Shayad,Arijit Singh,Hindi,Bollywood Romantic,romantic,4.8,2020,Shayad Love Aaj Kal
+13,Tera Fitoor,Arijit Singh,Hindi,Bollywood Romantic,romantic,4.7,2017,Tera Fitoor Genius
+14,Jeena Jeena,Atif Aslam,Hindi,Bollywood Romantic,romantic,4.7,2014,Jeena Jeena Badlapur
+15,Ve Maahi,Arijit Singh,Hindi,Bollywood Romantic,romantic,4.8,2019,Ve Maahi Kesari
+16,Pal,Arijit Singh,Hindi,Bollywood Romantic,romantic,4.7,2018,Pal Jalebi Arijit Singh
+17,Raataan Lambiyan,Jubin Nautiyal,Hindi,Bollywood Romantic,romantic,4.7,2021,Raataan Lambiyan Shershaah
+18,Tere Vaaste,Varun Jain,Hindi,Bollywood Romantic,romantic,4.8,2023,Tere Vaaste Zara Hatke Zara Bachke
+19,Apna Bana Le,Arijit Singh,Hindi,Bollywood Romantic,romantic,4.7,2023,Apna Bana Le Bhediya
+20,Zaalima,Arijit Singh,Hindi,Bollywood Romantic,romantic,4.8,2017,Zaalima Raees Arijit Singh
+21,Roja Jaaneman,A R Rahman,Tamil,Film Romantic,romantic,4.9,1992,Roja Jaaneman AR Rahman Tamil
+22,Munbe Vaa,Shreya Ghoshal,Tamil,Film Romantic,romantic,4.8,2006,Munbe Vaa Sillunu Oru Kaadhal
+23,Ennodu Nee Irundhaal,A R Rahman,Tamil,Film Romantic,romantic,4.7,2015,Ennodu Nee Irundhaal I Tamil
+24,Nenjukulle,A R Rahman,Tamil,Film Romantic,romantic,4.8,2012,Nenjukulle Kadal AR Rahman
+25,Mannipaaya,Harris Jayaraj,Tamil,Film Romantic,romantic,4.8,2011,Mannipaaya Vinnaithaandi Varuvaayaa
+26,Kadhal Rojave,A R Rahman,Tamil,Film Romantic,romantic,4.9,1994,Kadhal Rojave Roja AR Rahman
+27,Vennilave Vennilave,S P Balasubrahmanyam,Tamil,Classic Tamil,romantic,4.9,1997,Vennilave Vennilave Minsara Kanavu
+28,Kannamoochi Yenada,A R Rahman,Tamil,Film Romantic,romantic,4.7,1999,Kannamoochi Yenada Kandukondain
+29,Neethanae,Harris Jayaraj,Tamil,Film Romantic,romantic,4.8,2012,Neethanae Minnale Harris Jayaraj
+30,Yennai Maatrum Kadhale,Anirudh Ravichander,Tamil,Film Romantic,romantic,4.8,2023,Yennai Maatrum Kadhale Tamil
+31,Inkem Inkem,Sid Sriram,Telugu,Film Romantic,romantic,4.9,2018,Inkem Inkem Geetha Govindam
+32,Samajavaragamana,Sid Sriram,Telugu,Film Romantic,romantic,4.9,2019,Samajavaragamana Ala Vaikunthapurramuloo
+33,Vachinde,Sid Sriram,Telugu,Film Romantic,romantic,4.8,2018,Vachinde Fidaa Telugu
+34,Kanulu Kanulanu Dhochaaye,Hesham Abdul Wahab,Telugu,Film Romantic,romantic,4.8,2020,Kanulu Kanulanu Dhochaaye Geeta Govindam
+35,Ye Maaya Chesave,M M Keeravani,Telugu,Film Romantic,romantic,4.8,2010,Ye Maaya Chesave title song
+36,Geetanjali Title,Ilaiyaraaja,Telugu,Classic Telugu,romantic,4.9,1989,Geetanjali title song Telugu Ilaiyaraaja
+37,Nee Himamaaga,S P Balasubrahmanyam,Telugu,Classic Telugu,romantic,4.8,1988,Nee Himamaaga Telugu
+38,Mere Rashke Qamar,Rahat Fateh Ali Khan,Hindi,Ghazal,romantic,4.9,2017,Mere Rashke Qamar Rahat Fateh Ali Khan Baadshaho
+39,Hothon Se Chhu Lo Tum,Jagjit Singh,Hindi,Ghazal,romantic,4.9,1990,Hothon Se Chhu Lo Tum Jagjit Singh
+40,Tujhe Dekha Toh,Lata Mangeshkar,Hindi,Classic Romantic,romantic,4.9,1995,Tujhe Dekha Toh Dilwale Dulhania Le Jayenge
+41,Gallan Goodiyan,Yashita Sharma,Hindi,Bollywood,happy,4.4,2015,Gallan Goodiyan Dil Dhadakne Do
+42,Badtameez Dil,Benny Dayal,Hindi,Bollywood Dance,happy,4.9,2013,Badtameez Dil Yeh Jawaani Hai Deewani
+43,Balam Pichkari,Vishal Dadlani,Hindi,Bollywood,happy,4.7,2013,Balam Pichkari Yeh Jawaani Hai Deewani
+44,London Thumakda,Labh Janjua,Hindi,Bollywood Punjabi,happy,4.8,2014,London Thumakda Queen
+45,Dil Chahta Hai,Shankar Mahadevan,Hindi,Bollywood Rock,happy,4.9,2001,Dil Chahta Hai title song
+46,Abhi Toh Party Shuru Hui Hai,Badshah,Hindi,Bollywood Party,happy,4.7,2015,Abhi Toh Party Shuru Hui Hai Khoobsurat
+47,Kala Chashma,Badshah,Hindi,Punjabi Pop,happy,4.6,2016,Kala Chashma Baar Baar Dekho
+48,Malhari,Vishal Dadlani,Hindi,Bollywood Action,happy,4.9,2015,Malhari Bajirao Mastani
+49,Aankh Marey,Mika Singh,Hindi,Bollywood Dance,happy,4.8,2018,Aankh Marey Simmba
+50,Kar Gayi Chull,Badshah,Hindi,Bollywood Dance,happy,4.5,2016,Kar Gayi Chull Kapoor Sons
+51,Swag Se Swagat,Vishal Dadlani,Hindi,Bollywood Action,happy,4.7,2017,Swag Se Swagat Tiger Zinda Hai
+52,Ghungroo,Vishal Dadlani,Hindi,Bollywood Dance,happy,4.7,2019,Ghungroo War Hrithik Roshan
+53,Ghoomar,Shreya Ghoshal,Hindi,Bollywood Folk Dance,happy,4.8,2018,Ghoomar Padmaavat Shreya Ghoshal
+54,Rang Barse,Amitabh Bachchan,Hindi,Bollywood Folk,happy,4.8,1981,Rang Barse Silsila
+55,Ek Pal Ka Jeena,Hrithik Roshan,Hindi,Bollywood Dance,happy,4.7,2000,Ek Pal Ka Jeena Kaho Naa Pyaar Hai
+56,Bole Chudiyan,Kavita Krishnamurti,Hindi,Bollywood Dance,happy,4.7,2001,Bole Chudiyan K3G
+57,Disco Deewane,Nazia Hassan,Hindi,Classic Pop,happy,4.7,1980,Disco Deewane Nazia Hassan
+58,Aap Jaisa Koi,Nazia Hassan,Hindi,Classic Pop,happy,4.8,1980,Aap Jaisa Koi Nazia Hassan Qurbani
+59,Papa Kehte Hain,Udit Narayan,Hindi,Bollywood Happy,happy,4.7,1988,Papa Kehte Hain Qayamat Se Qayamat Tak
+60,Hawa Hawa,Hassan Jahangir,Hindi,Classic Pop,happy,4.7,1987,Hawa Hawa e Hawa Hassan Jahangir
+61,Naatu Naatu,Rahul Sipligunj,Telugu,Film Dance,happy,4.9,2022,Naatu Naatu RRR Telugu
+62,Buttabomma,Armaan Malik,Telugu,Film Happy,happy,4.8,2020,Buttabomma Ala Vaikunthapurramuloo
+63,Ramuloo Ramulaa,Thaman S,Telugu,Film Dance,happy,4.8,2019,Ramuloo Ramulaa Ala Vaikunthapurramuloo
+64,Jigelu Rani,Devi Sri Prasad,Telugu,Film Dance,happy,4.8,2018,Jigelu Rani Rangasthalam Telugu
+65,Hey Pillagada,Devi Sri Prasad,Telugu,Film Dance,happy,4.8,2016,Hey Pillagada Dhruva Telugu
+66,Vaathi Coming,Anirudh Ravichander,Tamil,Film Energetic,happy,4.9,2023,Vaathi Coming Master Tamil
+67,Arabic Kuthu,Anirudh Ravichander,Tamil,Film Dance,happy,4.9,2022,Arabic Kuthu Beast Tamil
+68,Rowdy Baby,Dhanush,Tamil,Film Dance,happy,4.8,2018,Rowdy Baby Maari 2 Tamil
+69,Why This Kolaveri Di,Dhanush,Tamil,Pop Fun,happy,4.7,2011,Why This Kolaveri Di Dhanush
+70,Enjoy Enjaami,Dhee,Tamil,Folk Fusion,happy,4.9,2021,Enjoy Enjaami Dhee Arivu
+71,Aalaporan Tamizhan,A R Rahman,Tamil,Film Patriotic,happy,4.9,2017,Aalaporan Tamizhan Mersal AR Rahman
+72,Hamma Hamma,A R Rahman,Tamil,Film Happy,happy,4.8,1997,Hamma Hamma Bombay Tamil
+73,Neyveli,A R Rahman,Tamil,Film Folk,happy,4.8,2007,Neyveli Sivaji Tamil
+74,Ekla Cholo Re,Rabindranath Tagore,Bengali,Tagore Song,energetic,4.9,1905,Ekla Cholo Re Rabindra Sangeet
+75,Jolly O Gymkhana,Anirudh Ravichander,Tamil,Film Happy,happy,4.7,2022,Jolly O Gymkhana Beast Tamil
+76,Channa Mereya,Arijit Singh,Hindi,Bollywood Sad,sad,4.9,2016,Channa Mereya Ae Dil Hai Mushkil
+77,Agar Tum Saath Ho,Arijit Singh,Hindi,Bollywood Sad,sad,5.0,2015,Agar Tum Saath Ho Tamasha
+78,Kabira,Tochi Raina,Hindi,Bollywood Melancholic,sad,4.8,2013,Kabira Yeh Jawaani Hai Deewani
+79,Teri Mitti,B Praak,Hindi,Patriotic Sad,sad,4.9,2019,Teri Mitti Kesari B Praak
+80,Ae Dil Hai Mushkil,Arijit Singh,Hindi,Bollywood Sad,sad,4.7,2016,Ae Dil Hai Mushkil title song
+81,Tujhse Naraz Nahi Zindagi,Lata Mangeshkar,Hindi,Classic Sad,sad,4.8,1983,Tujhse Naraz Nahi Zindagi Masoom
+82,Tujhe Kitna Chahne Lage,Arijit Singh,Hindi,Bollywood Sad,sad,4.9,2019,Tujhe Kitna Chahne Lage Kabir Singh
+83,Kaise Hua,Vishal Mishra,Hindi,Bollywood Sad,sad,4.8,2019,Kaise Hua Kabir Singh
+84,Bekhayali,Sachet Tandon,Hindi,Bollywood Indie,sad,4.8,2019,Bekhayali Kabir Singh
+85,Jo Bhi Main,Mohit Chauhan,Hindi,Bollywood Indie,sad,4.6,2011,Jo Bhi Main Rockstar
+86,Alvida,KK,Hindi,Bollywood Sad,sad,4.7,2009,Alvida Life in a Metro KK
+87,Zindagi Do Pal Ki,KK,Hindi,Bollywood Sad,sad,4.8,2007,Zindagi Do Pal Ki Kites KK
+88,Pachtaoge,Arijit Singh,Hindi,Bollywood Sad,sad,4.8,2019,Pachtaoge Arijit Singh B Praak
+89,O Bedardeya,Arijit Singh,Hindi,Bollywood Sad,sad,4.7,2023,O Bedardeya Tu Jhoothi Main Makkaar
+90,Galliyan,Ankit Tiwari,Hindi,Bollywood Sad,sad,4.8,2014,Galliyan Ek Villain
+91,Nadaan Parindey,Mohit Chauhan,Hindi,Bollywood Sad,sad,4.8,2011,Nadaan Parindey Rockstar
+92,Tum Bin,Jagjit Singh,Hindi,Ghazal,sad,4.9,1990,Tum Bin Jagjit Singh ghazal
+93,Chitthi Na Koi Sandesh,Jagjit Singh,Hindi,Ghazal,sad,4.9,1991,Chitthi Na Koi Sandesh Jagjit Singh
+94,Koi Fariyaad,Jagjit Singh,Hindi,Ghazal,sad,4.9,2003,Koi Fariyaad Jagjit Singh Tum Bin
+95,Waqt Ne Kiya,Geeta Dutt,Hindi,Classic Sad,sad,4.9,1959,Waqt Ne Kiya Kya Haseen Sitam Geeta Dutt
+96,Kangal Irandal,Vipin Sreenivasan,Tamil,Film Sad,sad,4.8,2011,Kangal Irandal Subramaniapuram Tamil
+97,Uyire,A R Rahman,Tamil,Film Sad,sad,4.9,1998,Uyire Dil Se Tamil AR Rahman
+98,Po Nee Po,A R Rahman,Tamil,Film Sad,sad,4.8,2010,Po Nee Po 180 Tamil AR Rahman
+99,Naan Pizhai,Sid Sriram,Tamil,Film Sad,sad,4.8,2021,Naan Pizhai Sid Sriram Tamil
+100,Ninnukori,S P Balasubrahmanyam,Telugu,Film Sad,sad,4.9,1990,Ninnukori Mutha Mestri Telugu
+101,Maa Song,Shankar Mahadevan,Hindi,Bollywood Emotional,sad,4.9,2007,Maa Taare Zameen Par Shankar Mahadevan
+102,Behti Hawa Sa Tha Woh,Lucky Ali,Hindi,Indie Sad,sad,4.7,2001,Behti Hawa Sa Tha Woh Lucky Ali
+103,Biday Dao,Nachiketa,Bengali,Modern Bengali,sad,4.7,1993,Biday Dao Nachiketa Bengali
+104,Kun Faya Kun,Javed Ali,Hindi,Sufi,calm,4.9,2011,Kun Faya Kun Rockstar AR Rahman
+105,Lag Ja Gale,Lata Mangeshkar,Hindi,Classic Bollywood,calm,4.9,1964,Lag Ja Gale Lata Mangeshkar
+106,Iktara,Kavita Seth,Hindi,Indie Folk,calm,4.7,2009,Iktara Wake Up Sid
+107,Tujh Mein Rab Dikhta Hai,Roop Kumar Rathod,Hindi,Bollywood,calm,4.8,2008,Tujh Mein Rab Dikhta Hai Rab Ne Bana Di Jodi
+108,Khwaja Mere Khwaja,A R Rahman,Hindi,Sufi,calm,4.9,2008,Khwaja Mere Khwaja Jodhaa Akbar
+109,O Re Piya,Rahat Fateh Ali Khan,Hindi,Bollywood Sufi,calm,4.8,2007,O Re Piya Aaja Nachle
+110,Kabhi Kabhi Mere Dil Mein,Lata Mangeshkar,Hindi,Classic Ghazal,calm,5.0,1976,Kabhi Kabhi Mere Dil Mein Lata Mangeshkar
+111,Neele Neele Ambar Par,Kishore Kumar,Hindi,Classic,calm,4.8,1982,Neele Neele Ambar Par Kishore Kumar
+112,Rimjhim Gire Saawan,Kishore Kumar,Hindi,Classic,calm,4.9,1982,Rimjhim Gire Saawan Kishore Kumar Manzil
+113,Arziyan,KK,Hindi,Sufi,calm,4.8,2010,Arziyan Delhi 6 KK
+114,Maahi Ve,Nusrat Fateh Ali Khan,Hindi,Sufi Classic,calm,5.0,1996,Maahi Ve Nusrat Fateh Ali Khan
+115,Khairiyat,Arijit Singh,Hindi,Bollywood Soft,calm,4.9,2019,Khairiyat Chhichhore Arijit Singh
+116,Bulla Ki Jaana,Rabbi Shergill,Hindi,Sufi Rock,calm,4.8,2004,Bulla Ki Jaana Rabbi Shergill
+117,Ram Siya Ram,Sachet Parampara,Hindi,Devotional,calm,4.9,2023,Ram Siya Ram Adipurush
+118,Laal Ishq,Arijit Singh,Hindi,Bollywood Sufi,calm,4.7,2013,Laal Ishq Goliyon Ki Raasleela Ram Leela
+119,Yeh Jo Des Hai Tera,A R Rahman,Hindi,Sufi Folk,calm,4.8,2004,Yeh Jo Des Hai Tera Swades
+120,Chaiyya Chaiyya,Sukhwinder Singh,Hindi,Bollywood,calm,4.9,1998,Chaiyya Chaiyya Dil Se Sukhwinder
+121,Siru Paarvayale,A R Rahman,Tamil,Film Calm,calm,4.9,1998,Siru Paarvayale AR Rahman Tamil
+122,Oru Deivam Thantha Poove,Unni Krishnan,Tamil,Film Devotional,calm,4.8,1994,Oru Deivam Thantha Poove Tamil
+123,Nila Kaigirathu,Ilaiyaraaja,Tamil,Classic Tamil,calm,4.8,1987,Nila Kaigirathu Ilaiyaraaja Tamil
+124,Kannodu Kaanbathellam,A R Rahman,Tamil,Film Calm,calm,4.8,1996,Kannodu Kaanbathellam AR Rahman Tamil
+125,Anbe Sivam,A R Rahman,Tamil,Film Devotional,calm,4.8,2003,Anbe Sivam title song Tamil
+126,Ami Chini Go Chini,Rabindranath Tagore,Bengali,Tagore Song,calm,4.8,1913,Ami Chini Go Chini Tagore
+127,Tumi Je Amar,Kumar Sanu,Bengali,Film Romantic,calm,4.7,1998,Tumi Je Amar Bengali Kumar Sanu
+128,Zinda,Siddharth Mahadevan,Hindi,Bollywood Rock,energetic,4.8,2013,Zinda Bhaag Milkha Bhaag
+129,Kar Har Maidaan Fateh,Sukhwinder Singh,Hindi,Motivational,energetic,4.9,2017,Kar Har Maidaan Fateh Sanju
+130,Dangal Title,Raftaar,Hindi,Bollywood Motivational,energetic,4.8,2016,Dangal title song Daler Mehndi
+131,Chak De India,Sukhwinder Singh,Hindi,Sports Motivational,energetic,4.9,2007,Chak De India title song
+132,Sadda Haq,Mohit Chauhan,Hindi,Bollywood Rock,energetic,4.8,2012,Sadda Haq Rockstar
+133,Rock On Title,Farhan Akhtar,Hindi,Bollywood Rock,energetic,4.9,2008,Rock On title song Farhan Akhtar
+134,Ae Watan,Arijit Singh,Hindi,Patriotic Rock,energetic,4.8,2017,Ae Watan Raazi Arijit Singh
+135,Vande Mataram,A R Rahman,Hindi,Patriotic Rock,energetic,4.9,1997,Vande Mataram AR Rahman Maa Tujhe Salaam
+136,Dhoom Machale,Sunidhi Chauhan,Hindi,Bollywood Action,energetic,4.8,2004,Dhoom Machale Dhoom
+137,Malhari Action,Vishal Dadlani,Hindi,Bollywood Action,energetic,4.9,2015,Malhari Bajirao Mastani energetic
+138,Sandese Aate Hain,Sonu Nigam,Hindi,Patriotic,energetic,4.9,1997,Sandese Aate Hain Border
+139,Sarfaroshi Ki Tamanna,Various,Hindi,Patriotic,energetic,4.9,1922,Sarfaroshi Ki Tamanna patriotic song
+140,Bhaag DK Bose,Ram Sampath,Hindi,Bollywood Rock,energetic,4.6,2011,Bhaag DK Bose Delhi Belly
+141,Pyaar Kiya To Darna Kya,Mohammed Rafi,Hindi,Classic Bold,energetic,4.9,1960,Pyaar Kiya To Darna Kya Mughal E Azam
+142,Jai Ho,A R Rahman,Hindi,Bollywood Pop,energetic,4.8,2009,Jai Ho AR Rahman Slumdog Millionaire
+143,Vaathi Coming Tamil,Anirudh Ravichander,Tamil,Film Motivational,energetic,4.9,2023,Vaathi Coming Master Tamil Anirudh
+144,Beast Mode,Anirudh Ravichander,Tamil,Film Action,energetic,4.7,2022,Beast Mode Anirudh Tamil
+145,Thunivu Title,Anirudh Ravichander,Tamil,Film Action,energetic,4.7,2023,Thunivu title song Tamil
+146,Master Title,Anirudh Ravichander,Tamil,Film Action,energetic,4.9,2021,Master title song Anirudh Thalapathy
+147,Naatu Naatu Telugu,Devi Sri Prasad,Telugu,Film Dance Energetic,energetic,4.9,2022,Naatu Naatu RRR Telugu DSP
+148,Dhamaka,Devi Sri Prasad,Telugu,Film Energetic,energetic,4.8,2021,Dhamaka Pushpa Telugu DSP
+149,Pushpa Pushpa,Devi Sri Prasad,Telugu,Film Energetic,energetic,4.9,2024,Pushpa Pushpa Pushpa 2
+150,Bheemla Nayak Title,Thaman S,Telugu,Film Action,energetic,4.8,2022,Bheemla Nayak title Telugu
+151,Pee Loon,Mohit Chauhan,Hindi,Bollywood Acoustic,relaxed,4.7,2010,Pee Loon Once Upon A Time Mumbai
+152,Nazm Nazm,Arko,Hindi,Indie Pop,relaxed,4.9,2016,Nazm Nazm Bareilly Ki Barfi Arko
+153,Moh Moh Ke Dhage,Monali Thakur,Hindi,Bollywood Soft,relaxed,4.8,2015,Moh Moh Ke Dhage Dum Laga Ke Haisha
+154,Tum Se Hi,Mohit Chauhan,Hindi,Bollywood Soft,relaxed,4.8,2008,Tum Se Hi Jab We Met Mohit Chauhan
+155,Aadat,Atif Aslam,Hindi,Indie Soft,relaxed,4.8,2004,Aadat Atif Aslam Jal band
+156,O Sanam,Lucky Ali,Hindi,Indie Soft,relaxed,4.8,1996,O Sanam Lucky Ali
+157,Woh Lamhe,Atif Aslam,Hindi,Indie Soft,relaxed,4.8,2005,Woh Lamhe Atif Aslam
+158,Besabriyaan,Armaan Malik,Hindi,Bollywood Soft,relaxed,4.7,2017,Besabriyaan M S Dhoni
+159,Kabhi Jo Baadal Barse,Arijit Singh,Hindi,Bollywood Soft,relaxed,4.8,2013,Kabhi Jo Baadal Barse Jackpot
+160,Khuda Jaane,KK,Hindi,Bollywood Acoustic,relaxed,4.8,2008,Khuda Jaane Bachna Ae Haseeno
+161,Kya Mujhe Pyaar Hai,KK,Hindi,Bollywood Soft,relaxed,4.8,2006,Kya Mujhe Pyaar Hai Woh Lamhe
+162,Aaj Jaane Ki Zid Na Karo,Farida Khanum,Hindi,Classical Ghazal,relaxed,4.9,1971,Aaj Jaane Ki Zid Na Karo Farida Khanum
+163,Dum Maro Dum,Asha Bhosle,Hindi,Classic Chill,relaxed,4.7,1971,Dum Maro Dum Hare Rama Hare Krishna
+164,Sooha Saha,Nooran Sisters,Hindi,Folk,relaxed,4.6,2014,Sooha Saha Highway
+165,Kho Gaye Hum Kahan,Jasleen Royal,Hindi,Indie Pop,relaxed,4.7,2023,Kho Gaye Hum Kahan Zindagi
+166,Theher Ja,Armaan Malik,Hindi,Bollywood Soft,relaxed,4.7,2019,Theher Ja Armaan Malik
+167,Tere Pyaar Mein,Arijit Singh,Hindi,Bollywood Soft,relaxed,4.8,2023,Tere Pyaar Mein Arijit Singh
+168,Bahara,Shreya Ghoshal,Hindi,Bollywood Soft,relaxed,4.7,2010,Bahara I Hate Luv Storys
+169,Phir Mohabbat,Arijit Singh,Hindi,Bollywood Soft,relaxed,4.7,2011,Phir Mohabbat Murder 2 Arijit Singh
+170,Naina,Arijit Singh,Hindi,Bollywood Soft,relaxed,4.8,2022,Naina Arijit Singh
+171,Neethanae Neethanae,Sid Sriram,Tamil,Film Romantic Soft,relaxed,4.8,2020,Neethanae Sid Sriram Tamil
+172,Ae Watan Raazi,Arijit Singh,Hindi,Patriotic,angry,4.8,2017,Ae Watan Raazi Arijit Singh patriotic
+173,Sadda Haq Rock,Mohit Chauhan,Hindi,Rock Intense,angry,4.8,2012,Sadda Haq Rockstar intense
+174,Ae Mere Watan Ke Logon,Lata Mangeshkar,Hindi,Classic Patriotic,angry,5.0,1963,Ae Mere Watan Ke Logon Lata Mangeshkar
+175,Ziddi Dil,Siddharth Mahadevan,Hindi,Bollywood Rock,angry,4.5,2011,Ziddi Dil Na Tum Jaano Na Hum
+176,Roobaroo,Naresh Iyer,Hindi,Bollywood Rock,angry,4.7,2006,Roobaroo Rang De Basanti
+177,Tooh,Gippy Grewal,Hindi,Punjabi Rock,angry,4.4,2012,Tooh Gippy Grewal
+178,Seeti Maar,Vishal Dadlani,Hindi,Bollywood Action,angry,4.5,2021,Seeti Maar Radhe
+179,Vikram Vedha Title,Sam C S,Tamil,Film Intense,angry,4.8,2017,Vikram Vedha title Tamil
+180,Aarambam Title,Yuvan Shankar Raja,Tamil,Film Action,angry,4.7,2013,Aarambam Tamil title song
+181,Uppena Title,Devi Sri Prasad,Telugu,Film Intense,angry,4.8,2021,Uppena title song Telugu
+182,Halla Bol,Sukhwinder Singh,Hindi,Patriotic,angry,4.8,2008,Halla Bol Rang De Basanti Sukhwinder
+183,Toofaan,Shankar Ehsaan Loy,Hindi,Action,angry,4.6,2021,Toofaan Farhan Akhtar
+184,Sultan Title,Sukhwinder Singh,Hindi,Action Intense,angry,4.7,2016,Sultan title song Sukhwinder
+185,Kai Po Che,Amit Trivedi,Hindi,Bollywood Intense,angry,4.7,2013,Kai Po Che title song
