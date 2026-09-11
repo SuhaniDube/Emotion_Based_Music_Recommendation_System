@@ -87,13 +87,6 @@ If a 30-second preview exists, it plays directly in the page via an audio player
 - Client-side Emotion Detection
 - Content-based Recommendation System
 
-### Not Used
-- React/Vue/Angular
-- TensorFlow/PyTorch
-- SQL Database
-- OpenAI API
-- Node.js
-- Docker
 ```
 moodsongs/
 ├── app.py                  Flask server
