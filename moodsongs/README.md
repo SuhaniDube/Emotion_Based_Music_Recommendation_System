@@ -9,7 +9,7 @@ Pick manually or let your **camera detect your facial expression** — all local
 
 ### 1. Install
 ```bash
-pip install flask pandas fer opencv-python mtcnn
+pip install flask pandas numpy
 ```
 
 ### 2. Run
@@ -111,4 +111,3 @@ python app.py  # then change port in app.py if needed
 
 **No song preview:** Not all songs have iTunes previews. Try another song or check your internet.
 
-**All detections show "calm":** Install FER — `pip install fer mtcnn`. OpenCV fallback has limited accuracy.
