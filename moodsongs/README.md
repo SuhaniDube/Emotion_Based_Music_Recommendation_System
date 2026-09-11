@@ -31,7 +31,7 @@ http://127.0.0.1:5000
 | 🎭 **7 emotions** | Happy, Romantic, Sad, Energetic, Calm, Angry, Relaxed |
 | 🌏 **6 languages** | Hindi, Tamil, Telugu, Punjabi, Bengali, Kannada |
 | 🎵 **400+ songs** | Classics to current hits |
-| 📷 **Face detection** | FER/DeepFace/OpenCV — fully local |
+| 📷 **Face detection** | face-api.js |
 | ▶️ **30-sec previews** | iTunes Search API (free, no key) |
 | 🎛️ **Custom count** | Choose 5 to 50 songs |
 | 🌐 **Language filter** | Filter by language in the UI |
