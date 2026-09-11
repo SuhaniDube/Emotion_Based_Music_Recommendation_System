@@ -48,25 +48,52 @@ If a 30-second preview exists, it plays directly in the page via an audio player
 
 ---
 
-## Face detection
 
-Uses a priority chain — whichever is installed:
 
-1. **FER** (recommended) — mini-XCEPTION CNN, fast, lightweight
-2. **DeepFace** — more accurate, slower
-3. **OpenCV Haar** — always available as fallback
 
-Detects: 😄 happy · 😢 sad · 😤 angry · ⚡ energetic (surprise) · 😌 calm (neutral)
-
-```bash
-pip install fer mtcnn opencv-python   # recommended
-pip install deepface                   # optional, more accurate
-```
-
----
 
 ## Project files
+## 🛠 Tech Stack
 
+### Backend
+- Python
+- Flask
+- Pandas
+- NumPy
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript (ES2022)
+
+### AI / ML
+- face-api.js
+- TinyFaceDetector
+- FaceExpressionNet
+- WebGL
+
+### Dataset
+- 400+ Songs
+- 6 Languages
+- 7 Emotions
+- CSV + Pandas
+
+### External API
+- iTunes Search API (Song Previews)
+
+### Architecture
+- Single Page Application (SPA)
+- REST API (Flask)
+- Client-side Emotion Detection
+- Content-based Recommendation System
+
+### Not Used
+- React/Vue/Angular
+- TensorFlow/PyTorch
+- SQL Database
+- OpenAI API
+- Node.js
+- Docker
 ```
 moodsongs/
 ├── app.py                  Flask server
